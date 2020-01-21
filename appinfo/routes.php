@@ -10,7 +10,7 @@
  * @copyright Pellaeon Lin 2014
  */
 
-$app = new \OCA\Registration\AppInfo\Application();
+\OC::$server->query(OCA\Registration\AppInfo\Application:class);
 
 return [
 	'routes' => [
